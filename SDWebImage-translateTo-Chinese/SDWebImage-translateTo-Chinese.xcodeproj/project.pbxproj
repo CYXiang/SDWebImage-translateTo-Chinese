@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F845BE81BC55A8A0074D56E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F845BE71BC55A8A0074D56E /* main.m */; };
+		8F845C011BC55A8A0074D56E /* SDWebImage_translateTo_ChineseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F845C001BC55A8A0074D56E /* SDWebImage_translateTo_ChineseTests.m */; };
+		8F845C0C1BC55A8A0074D56E /* SDWebImage_translateTo_ChineseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F845C0B1BC55A8A0074D56E /* SDWebImage_translateTo_ChineseUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F845BFD1BC55A8A0074D56E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F845BDB1BC55A8A0074D56E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F845BE21BC55A8A0074D56E;
+			remoteInfo = "SDWebImage-translateTo-Chinese";
+		};
+		8F845C081BC55A8A0074D56E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F845BDB1BC55A8A0074D56E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F845BE21BC55A8A0074D56E;
+			remoteInfo = "SDWebImage-translateTo-Chinese";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F845BE31BC55A8A0074D56E /* SDWebImage-translateTo-Chinese.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDWebImage-translateTo-Chinese.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F845BE71BC55A8A0074D56E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F845BFC1BC55A8A0074D56E /* SDWebImage-translateTo-ChineseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SDWebImage-translateTo-ChineseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F845C001BC55A8A0074D56E /* SDWebImage_translateTo_ChineseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebImage_translateTo_ChineseTests.m; sourceTree = "<group>"; };
+		8F845C021BC55A8A0074D56E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F845C071BC55A8A0074D56E /* SDWebImage-translateTo-ChineseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SDWebImage-translateTo-ChineseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F845C0B1BC55A8A0074D56E /* SDWebImage_translateTo_ChineseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebImage_translateTo_ChineseUITests.m; sourceTree = "<group>"; };
+		8F845C0D1BC55A8A0074D56E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F845BE01BC55A8A0074D56E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F845BF91BC55A8A0074D56E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F845C041BC55A8A0074D56E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F845BDA1BC55A8A0074D56E = {
+			isa = PBXGroup;
+			children = (
+				8F845BE51BC55A8A0074D56E /* SDWebImage-translateTo-Chinese */,
+				8F845BFF1BC55A8A0074D56E /* SDWebImage-translateTo-ChineseTests */,
+				8F845C0A1BC55A8A0074D56E /* SDWebImage-translateTo-ChineseUITests */,
+				8F845BE41BC55A8A0074D56E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F845BE41BC55A8A0074D56E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F845BE31BC55A8A0074D56E /* SDWebImage-translateTo-Chinese.app */,
+				8F845BFC1BC55A8A0074D56E /* SDWebImage-translateTo-ChineseTests.xctest */,
+				8F845C071BC55A8A0074D56E /* SDWebImage-translateTo-ChineseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F845BE51BC55A8A0074D56E /* SDWebImage-translateTo-Chinese */ = {
+			isa = PBXGroup;
+			children = (
+				8F845BE61BC55A8A0074D56E /* Supporting Files */,
+			);
+			path = "SDWebImage-translateTo-Chinese";
+			sourceTree = "<group>";
+		};
+		8F845BE61BC55A8A0074D56E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F845BE71BC55A8A0074D56E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F845BFF1BC55A8A0074D56E /* SDWebImage-translateTo-ChineseTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F845C001BC55A8A0074D56E /* SDWebImage_translateTo_ChineseTests.m */,
+				8F845C021BC55A8A0074D56E /* Info.plist */,
+			);
+			path = "SDWebImage-translateTo-ChineseTests";
+			sourceTree = "<group>";
+		};
+		8F845C0A1BC55A8A0074D56E /* SDWebImage-translateTo-ChineseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F845C0B1BC55A8A0074D56E /* SDWebImage_translateTo_ChineseUITests.m */,
+				8F845C0D1BC55A8A0074D56E /* Info.plist */,
+			);
+			path = "SDWebImage-translateTo-ChineseUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F845BE21BC55A8A0074D56E /* SDWebImage-translateTo-Chinese */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F845C101BC55A8A0074D56E /* Build configuration list for PBXNativeTarget "SDWebImage-translateTo-Chinese" */;
+			buildPhases = (
+				8F845BDF1BC55A8A0074D56E /* Sources */,
+				8F845BE01BC55A8A0074D56E /* Frameworks */,
+				8F845BE11BC55A8A0074D56E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SDWebImage-translateTo-Chinese";
+			productName = "SDWebImage-translateTo-Chinese";
+			productReference = 8F845BE31BC55A8A0074D56E /* SDWebImage-translateTo-Chinese.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F845BFB1BC55A8A0074D56E /* SDWebImage-translateTo-ChineseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F845C131BC55A8A0074D56E /* Build configuration list for PBXNativeTarget "SDWebImage-translateTo-ChineseTests" */;
+			buildPhases = (
+				8F845BF81BC55A8A0074D56E /* Sources */,
+				8F845BF91BC55A8A0074D56E /* Frameworks */,
+				8F845BFA1BC55A8A0074D56E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F845BFE1BC55A8A0074D56E /* PBXTargetDependency */,
+			);
+			name = "SDWebImage-translateTo-ChineseTests";
+			productName = "SDWebImage-translateTo-ChineseTests";
+			productReference = 8F845BFC1BC55A8A0074D56E /* SDWebImage-translateTo-ChineseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F845C061BC55A8A0074D56E /* SDWebImage-translateTo-ChineseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F845C161BC55A8A0074D56E /* Build configuration list for PBXNativeTarget "SDWebImage-translateTo-ChineseUITests" */;
+			buildPhases = (
+				8F845C031BC55A8A0074D56E /* Sources */,
+				8F845C041BC55A8A0074D56E /* Frameworks */,
+				8F845C051BC55A8A0074D56E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F845C091BC55A8A0074D56E /* PBXTargetDependency */,
+			);
+			name = "SDWebImage-translateTo-ChineseUITests";
+			productName = "SDWebImage-translateTo-ChineseUITests";
+			productReference = 8F845C071BC55A8A0074D56E /* SDWebImage-translateTo-ChineseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F845BDB1BC55A8A0074D56E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = CYX;
+				TargetAttributes = {
+					8F845BE21BC55A8A0074D56E = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					8F845BFB1BC55A8A0074D56E = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 8F845BE21BC55A8A0074D56E;
+					};
+					8F845C061BC55A8A0074D56E = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 8F845BE21BC55A8A0074D56E;
+					};
+				};
+			};
+			buildConfigurationList = 8F845BDE1BC55A8A0074D56E /* Build configuration list for PBXProject "SDWebImage-translateTo-Chinese" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F845BDA1BC55A8A0074D56E;
+			productRefGroup = 8F845BE41BC55A8A0074D56E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F845BE21BC55A8A0074D56E /* SDWebImage-translateTo-Chinese */,
+				8F845BFB1BC55A8A0074D56E /* SDWebImage-translateTo-ChineseTests */,
+				8F845C061BC55A8A0074D56E /* SDWebImage-translateTo-ChineseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F845BE11BC55A8A0074D56E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F845BFA1BC55A8A0074D56E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F845C051BC55A8A0074D56E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F845BDF1BC55A8A0074D56E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F845BE81BC55A8A0074D56E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F845BF81BC55A8A0074D56E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F845C011BC55A8A0074D56E /* SDWebImage_translateTo_ChineseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F845C031BC55A8A0074D56E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F845C0C1BC55A8A0074D56E /* SDWebImage_translateTo_ChineseUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F845BFE1BC55A8A0074D56E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F845BE21BC55A8A0074D56E /* SDWebImage-translateTo-Chinese */;
+			targetProxy = 8F845BFD1BC55A8A0074D56E /* PBXContainerItemProxy */;
+		};
+		8F845C091BC55A8A0074D56E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F845BE21BC55A8A0074D56E /* SDWebImage-translateTo-Chinese */;
+			targetProxy = 8F845C081BC55A8A0074D56E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8F845C0E1BC55A8A0074D56E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F845C0F1BC55A8A0074D56E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F845C111BC55A8A0074D56E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SDWebImage-translateTo-Chinese/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ioscyx.SDWebImage-translateTo-Chinese";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F845C121BC55A8A0074D56E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SDWebImage-translateTo-Chinese/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ioscyx.SDWebImage-translateTo-Chinese";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F845C141BC55A8A0074D56E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SDWebImage-translateTo-ChineseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ioscyx.SDWebImage-translateTo-ChineseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDWebImage-translateTo-Chinese.app/SDWebImage-translateTo-Chinese";
+			};
+			name = Debug;
+		};
+		8F845C151BC55A8A0074D56E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SDWebImage-translateTo-ChineseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ioscyx.SDWebImage-translateTo-ChineseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDWebImage-translateTo-Chinese.app/SDWebImage-translateTo-Chinese";
+			};
+			name = Release;
+		};
+		8F845C171BC55A8A0074D56E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SDWebImage-translateTo-ChineseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ioscyx.SDWebImage-translateTo-ChineseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SDWebImage-translateTo-Chinese";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8F845C181BC55A8A0074D56E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SDWebImage-translateTo-ChineseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ioscyx.SDWebImage-translateTo-ChineseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SDWebImage-translateTo-Chinese";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F845BDE1BC55A8A0074D56E /* Build configuration list for PBXProject "SDWebImage-translateTo-Chinese" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F845C0E1BC55A8A0074D56E /* Debug */,
+				8F845C0F1BC55A8A0074D56E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F845C101BC55A8A0074D56E /* Build configuration list for PBXNativeTarget "SDWebImage-translateTo-Chinese" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F845C111BC55A8A0074D56E /* Debug */,
+				8F845C121BC55A8A0074D56E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F845C131BC55A8A0074D56E /* Build configuration list for PBXNativeTarget "SDWebImage-translateTo-ChineseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F845C141BC55A8A0074D56E /* Debug */,
+				8F845C151BC55A8A0074D56E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F845C161BC55A8A0074D56E /* Build configuration list for PBXNativeTarget "SDWebImage-translateTo-ChineseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F845C171BC55A8A0074D56E /* Debug */,
+				8F845C181BC55A8A0074D56E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F845BDB1BC55A8A0074D56E /* Project object */;
+}
